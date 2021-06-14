@@ -1,7 +1,7 @@
 # the latest Python
 FROM python:latest
 
-WORKDIR /cdk
+WORKDIR /anfield
 
 # install the latest nodejs & npm
 RUN apt update \
