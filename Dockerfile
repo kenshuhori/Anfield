@@ -1,6 +1,8 @@
 # the latest Python
 FROM python:latest
 
+WORKDIR /cdk
+
 # install the latest nodejs & npm
 RUN apt update \
     && apt install -y nodejs \
