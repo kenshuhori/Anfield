@@ -7,7 +7,7 @@ services:
     image: aws-cdk
     container_name: aws-cdk
     volumes:
-      - .:/anfield
+      - ./anfield:/anfield
     tty: true
     environment:
       AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
